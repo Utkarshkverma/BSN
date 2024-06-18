@@ -20,6 +20,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @Entity
 public class Token {
+
+    // It will serve s api token
     
     @Id
     @GeneratedValue
